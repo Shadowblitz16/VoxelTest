@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <WarningsAsErrors>Nullable</WarningsAsErrors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.2" />
+      <PackageReference Include="Raylib-CSharp" Version="4.1.9" />
+      <PackageReference Include="Silk.NET" Version="2.21.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Games\VoxelGame\Assets\" />
+      <Folder Include="Games\VoxelGame\Worlds\" />
+      <Folder Include="Utilities\Geometry\" />
+    </ItemGroup>
+
+</Project>
