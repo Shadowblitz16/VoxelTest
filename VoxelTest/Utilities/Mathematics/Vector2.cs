@@ -1,8 +1,10 @@
 using System.Numerics;
+using System.Runtime.InteropServices;
 using Silk.NET.Maths;
 
 namespace VoxelTest.Utilities.Mathematics;
 
+[StructLayout(LayoutKind.Sequential)]
 public readonly record struct Vector2<T>(T X, T Y) :
     IComparisonOperators <Vector2<T>, Vector2<T>, bool>,
     IAdditionOperators   <Vector2<T>, Vector2<T>, Vector2<T>>,

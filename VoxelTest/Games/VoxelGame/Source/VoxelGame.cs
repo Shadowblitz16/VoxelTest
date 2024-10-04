@@ -1,6 +1,6 @@
 using Silk.NET.OpenGL;
 
-namespace VoxelTest.Games.VoxelGame;
+namespace VoxelTest.Games;
 
 public class VoxelGame : Game
 {
